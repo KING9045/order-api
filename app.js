@@ -9,7 +9,7 @@ const stream = require('stream');
 const { promisify } = require('util');
 
 const app = express();
-const port = 3008;
+const port = 3000;
 const pipeline = promisify(stream.pipeline);
 
 // Create a cache with a TTL of 5 minutes
